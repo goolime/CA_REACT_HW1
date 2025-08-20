@@ -1,0 +1,40 @@
+.rareAnimalContainer{
+    padding: 1em;
+    background-color: var(--clr1bg);
+    border-radius: 8px;
+}
+
+.rareAnimalContainer h2 {
+    color: var(--clr2);
+    font-size: 1.5em;
+}
+
+.rareAnimalContainer table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.rareAnimalContainer th,
+.rareAnimalContainer td {
+    padding: 0.5em;
+    text-align: left;
+    border-bottom: 1px solid var(--gray2);
+}
+
+.rareAnimalContainer tr:hover {
+    background-color: var(--clr1bg-light);
+}
+
+.rareAnimalContainer th {
+    background-color: var(--clr2bg);
+    color: var(--clr2);
+}
+
+.rareAnimalContainer a{
+    color: var(--clr2);
+    text-decoration: none;
+}
+
+.rareAnimalContainer a:hover {
+    text-decoration: underline;
+}
