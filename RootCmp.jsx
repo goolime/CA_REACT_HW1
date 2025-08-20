@@ -2,6 +2,7 @@
 import { AppHeader } from "./cmps/AppHeader.jsx"
 import { Home } from "./cmps/Home.jsx"
 import { AnimalList } from "./cmps/AnimalList.jsx"
+import { SeasonClock } from "./cmps/SeasonClock.jsx"
 
 export function RootCmp() {
 
@@ -17,6 +18,7 @@ export function RootCmp() {
             <main>
                 <Home />
                 <AnimalList animalInfos={animalInfos} />
+                <SeasonClock />
             </main>
         </section>
     )
