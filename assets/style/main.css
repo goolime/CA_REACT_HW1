@@ -5,6 +5,7 @@
 @import url(cmps/SeasonClock.css);
 @import url(cmps/CountDown.css);
 @import url(cmps/WatcherApp.css);
+@import url(cmps/MouseMonitor.css);
 
 /* Vars */
 :root {

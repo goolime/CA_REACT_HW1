@@ -1,0 +1,29 @@
+.mouse-coordinates {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 2em;
+    border: 1px solid var(--gray2);
+    border-radius: 4px;
+    background-color: var(--gray1);
+}
+
+.mouse-coordinates p{
+    margin: 0;
+    padding: 0 0.5em;
+}
+
+.mouse-coordinates.not-tracking {
+    opacity: 0.5;
+}
+
+.mouse-monitor {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: end;
+}

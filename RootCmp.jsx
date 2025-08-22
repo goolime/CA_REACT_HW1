@@ -5,6 +5,7 @@ import { AnimalList } from "./cmps/AnimalList.jsx"
 import { SeasonClock } from "./cmps/SeasonClock.jsx"
 import { CountDown } from "./cmps/CountDown.jsx"    
 import { WatcherApp } from "./cmps/WatcherApp.jsx"
+import { MouseMonitor } from "./cmps/MouseMonitor.jsx"
 
 export function RootCmp() {
 
@@ -23,6 +24,7 @@ export function RootCmp() {
                 <SeasonClock />
                 <CountDown toTime={Date.now() + 100 } onDone={()=>{ console.log('Done!') }} />
                 <WatcherApp />
+                <MouseMonitor />
             </main>
         </section>
     )
